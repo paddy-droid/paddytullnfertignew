@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Menu, Phone } from "lucide-react";
+import { Menu, Phone, ShieldCheck, Clock } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,6 +25,12 @@ const Navbar = () => {
             <a href="#specialServices" className="text-gray-600 hover:text-gray-900 transition-colors">Spezialleistungen</a>
             <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">Über uns</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Kontakt</a>
+            <span className="bg-green-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-green-200 dark:text-green-900 flex items-center gap-1">
+              <ShieldCheck className="h-3 w-3" /> ✅ Geprüfter Fachbetrieb
+            </span>
+            <span className="bg-blue-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-blue-200 dark:text-blue-900 flex items-center gap-1">
+              <Clock className="h-3 w-3" /> Schnelle Hilfe bei Fenster- und Türproblemen
+            </span>
             <a href="#contact">
               <Button className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
@@ -47,9 +53,15 @@ const Navbar = () => {
               <a href="#specialServices" className="text-gray-600 hover:text-gray-900 transition-colors">Spezialleistungen</a>
               <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">Über uns</a>
               <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Kontakt</a>
-              <a 
-                href="https://wa.me/436644351622" 
-                target="_blank" 
+              <span className="bg-green-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-green-200 dark:text-green-900 self-start flex items-center gap-1">
+                <ShieldCheck className="h-3 w-3" /> ✅ Geprüfter Fachbetrieb
+              </span>
+              <span className="bg-blue-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-blue-200 dark:text-blue-900 self-start flex items-center gap-1">
+                <Clock className="h-3 w-3" /> Schnelle Hilfe bei Fenster- und Türproblemen
+              </span>
+              <a
+                href="https://wa.me/436644351622"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-full"
               >
