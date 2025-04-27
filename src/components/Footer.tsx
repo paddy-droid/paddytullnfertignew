@@ -46,14 +46,36 @@ const Footer = () => {
           
           <div>
             <h3 className="text-xl font-bold mb-4">Service-Regionen</h3>
-            <p className="text-gray-400">Wien</p>
-            <p className="text-gray-400">Tulln</p>
-            <Link to="/st-poelten" className="text-gray-400 hover:text-white transition-colors">
-              St. Pölten
-            </Link>
-            <p className="text-gray-400">Krems</p>
-            <p className="text-gray-400">Baden bei Wien</p>
-            <p className="text-gray-400">Klosterneuburg</p>
+            <p className="text-gray-400">
+              <Link to="/wien" className="hover:text-white transition-colors">
+                Wien
+              </Link>
+            </p>
+            <p className="text-gray-400">
+              <Link to="/tulln" className="hover:text-white transition-colors">
+                Tulln
+              </Link>
+            </p>
+            <p className="text-gray-400">
+              <Link to="/st-poelten" className="hover:text-white transition-colors">
+                St. Pölten
+              </Link>
+            </p>
+            <p className="text-gray-400">
+              <Link to="/krems" className="hover:text-white transition-colors">
+                Krems
+              </Link>
+            </p>
+            <p className="text-gray-400">
+              <Link to="/baden-bei-wien" className="hover:text-white transition-colors">
+                Baden bei Wien
+              </Link>
+            </p>
+            <p className="text-gray-400">
+              <Link to="/klosterneuburg" className="hover:text-white transition-colors">
+                Klosterneuburg
+              </Link>
+            </p>
           </div>
         </div>
         

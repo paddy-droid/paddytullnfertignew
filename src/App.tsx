@@ -10,6 +10,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const Index = lazy(() => import("./pages/Index"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const StPoelten = lazy(() => import("./pages/StPoelten"));
+const Wien = lazy(() => import("./pages/Wien"));
+const Tulln = lazy(() => import("./pages/Tulln"));
+const Krems = lazy(() => import("./pages/Krems"));
+const BadenBeiWien = lazy(() => import("./pages/BadenBeiWien"));
+const Klosterneuburg = lazy(() => import("./pages/Klosterneuburg"));
 
 const queryClient = new QueryClient();
 
@@ -23,6 +28,11 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/st-poelten" element={<StPoelten />} />
+            <Route path="/wien" element={<Wien />} />
+            <Route path="/tulln" element={<Tulln />} />
+            <Route path="/krems" element={<Krems />} />
+            <Route path="/baden-bei-wien" element={<BadenBeiWien />} />
+            <Route path="/klosterneuburg" element={<Klosterneuburg />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

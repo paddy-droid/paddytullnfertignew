@@ -8,12 +8,13 @@ const About = () => {
           <figure>
             <img
               src="/lovable-uploads/585cf4ba-c4bf-4fb8-af32-7423a2762d7d.png"
+              srcset="/lovable-uploads/585cf4ba-c4bf-4fb8-af32-7423a2762d7d-small.png 480w, /lovable-uploads/585cf4ba-c4bf-4fb8-af32-7423a2762d7d-medium.png 800w, /lovable-uploads/585cf4ba-c4bf-4fb8-af32-7423a2762d7d.png 1200w"
+              sizes="(max-width: 600px) 480px, (max-width: 1000px) 800px, 1200px"
               alt="Fensterservice Techniker repariert professionell einen Fenstergriff"
               loading="lazy"
               className="rounded-xl shadow-2xl w-full h-auto"
               width="600"
               height="400"
-              loading="lazy"
             />
           </figure>
 
