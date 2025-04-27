@@ -1,5 +1,5 @@
 
-import { Phone, ShieldCheck } from "lucide-react";
+import { Phone, ShieldCheck, Building } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const SpecialServices = () => {
@@ -33,6 +33,18 @@ const SpecialServices = () => {
             </CardContent>
           </Card>
         </div>
+
+        <Card className="border-none shadow-lg hover:shadow-xl transition-shadow mt-8">
+          <CardContent className="pt-6">
+            <div className="flex items-center mb-4 text-blue-600">
+              <Building className="w-8 h-8 mr-3" />
+              <h3 className="text-2xl font-bold">Service für Hausverwaltungen</h3>
+            </div>
+            <p className="text-gray-600">
+              Umfassende Betreuung und schnelle Reparaturen für Immobilienverwaltungen. Wir bieten maßgeschneiderte Lösungen für Fenster, Türen und Sonnenschutz in Wohn- und Geschäftsobjekten.
+            </p>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );
