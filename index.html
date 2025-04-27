@@ -32,6 +32,106 @@
     <link rel="icon" type="image/png" href="/lovable-uploads/b5f2e7bb-445a-4ca8-b677-0095b7b2f820.png" />
     <link rel="apple-touch-icon" href="/lovable-uploads/b5f2e7bb-445a-4ca8-b677-0095b7b2f820.png" />
     
+    <!-- Critical CSS for LCP -->
+    <style>
+      .text-4xl {
+        font-size: 2.25rem; /* 36px */
+        line-height: 2.5rem; /* 40px */
+      }
+
+      @media (min-width: 768px) { /* md breakpoint */
+        .md\:text-6xl {
+          font-size: 3.75rem; /* 60px */
+          line-height: 1;
+        }
+      }
+
+      .font-bold {
+        font-weight: 700;
+      }
+
+      .text-white {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+      }
+
+      .mb-4 {
+        margin-bottom: 1rem; /* 16px */
+      }
+
+      .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 1rem; /* 16px */
+        padding-left: 1rem; /* 16px */
+      }
+
+      @media (min-width: 640px) { /* sm breakpoint */
+        .container {
+          max-width: 640px;
+        }
+      }
+
+      @media (min-width: 768px) { /* md breakpoint */
+        .container {
+          max-width: 768px;
+        }
+      }
+
+      @media (min-width: 1024px) { /* lg breakpoint */
+        .container {
+          max-width: 1024px;
+        }
+      }
+
+      @media (min-width: 1280px) { /* xl breakpoint */
+        .container {
+          max-width: 1280px;
+        }
+      }
+
+      @media (min-width: 1536px) { /* 2xl breakpoint */
+        .container {
+          max-width: 1536px;
+        }
+      }
+
+      .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .px-4 {
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem; /* 16px */
+      }
+
+      .z-10 {
+        z-index: 10;
+      }
+
+      .relative {
+        position: relative;
+      }
+
+      .min-h-screen {
+        min-height: 100vh;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .items-center {
+        align-items: center;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+    </style>
+
     <!-- Fonts -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
