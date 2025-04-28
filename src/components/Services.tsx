@@ -22,48 +22,96 @@ const Services = () => {
       title: "Fenster- & Türreparatur",
       description:
         "Fachgerechte Reparatur von Schließmechanismen, Dichtungen und Rahmen für optimale Energieeffizienz und Sicherheit.",
-      moreText:
-        "Unsere Spezialisten analysieren jede Undichtigkeit präzise und setzen auf <strong>hochwertige Ersatzteile</strong>, um <strong>Wärmeverluste</strong> dauerhaft zu reduzieren. Durch justierte Beschläge und erneuerte Dichtprofile steigern wir den <strong>Einbruchschutz</strong> und senken spürbar Ihre <strong>Heizkosten</strong> – perfekt für nachhaltiges Wohnen und besseres Raumklima."
+      moreText: [
+        "Unsere Spezialisten analysieren jede Undichtigkeit präzise und setzen auf ",
+        { type: 'bold', text: 'hochwertige Ersatzteile' },
+        ", um ",
+        { type: 'bold', text: 'Wärmeverluste' },
+        " dauerhaft zu reduzieren. Durch justierte Beschläge und erneuerte Dichtprofile steigern wir den ",
+        { type: 'bold', text: 'Einbruchschutz' },
+        " und senken spürbar Ihre ",
+        { type: 'bold', text: 'Heizkosten' },
+        " – perfekt für nachhaltiges Wohnen und besseres Raumklima."
+      ]
     },
     {
       icon: Sun,
       title: "Sonnenschutzlösungen",
       description:
         "Reparatur und Maßanfertigung von Sonnenschutzsystemen für optimale Licht- und Wärmeregulierung.",
-      moreText:
-        "Von modernen Raffstores bis zu klassischen Markisen bieten wir <strong>passgenaue Lösungen</strong>, die <strong>UV-Strahlung</strong> filtern und Räume angenehm temperieren. Mit <strong>langlebigen Stoffen</strong> und smarter Automatisierung schützen wir vor Überhitzung, verlängern die Lebensdauer Ihres Mobiliars und steigern gleichzeitig den <strong>energetischen Gesamtwert</strong> Ihrer Immobilie."
+      moreText: [
+        "Von modernen Raffstores bis zu klassischen Markisen bieten wir ",
+        { type: 'bold', text: 'passgenaue Lösungen' },
+        ", die ",
+        { type: 'bold', text: 'UV-Strahlung' },
+        " filtern und Räume angenehm temperieren. Mit ",
+        { type: 'bold', text: 'langlebigen Stoffen' },
+        " und smarter Automatisierung schützen wir vor Überhitzung, verlängern die Lebensdauer Ihres Mobiliars und steigern gleichzeitig den ",
+        { type: 'bold', text: 'energetischen Gesamtwert' },
+        " Ihrer Immobilie."
+      ]
     },
     {
       icon: Shield,
       title: "Insektenschutzsysteme",
       description:
         "Individuelle Insektenschutzgitter mit hochwertigen Materialien für optimalen Schutz bei voller Luftdurchlässigkeit.",
-      moreText:
-        "<strong>Millimetergenaue Maßanfertigungen</strong> aus beschichtetem Aluminium sorgen für <strong>höchste Stabilität</strong> und ungestörten Luftaustausch. Pulverbeschichtete Rahmen widerstehen Witterungseinflüssen, während feinmaschige Gewebe selbst Pollen abhalten. So genießen Sie <strong>frische Luft ohne Insekten</strong> – ideal für Allergiker und gesundes Wohnen."
+      moreText: [
+        { type: 'bold', text: 'Millimetergenaue Maßanfertigungen' },
+        " aus beschichtetem Aluminium sorgen für ",
+        { type: 'bold', text: 'höchste Stabilität' },
+        " und ungestörten Luftaustausch. Pulverbeschichtete Rahmen widerstehen Witterungseinflüssen, während feinmaschige Gewebe selbst Pollen abhalten. So genießen Sie ",
+        { type: 'bold', text: 'frische Luft ohne Insekten' },
+        " – ideal für Allergiker und gesundes Wohnen."
+      ]
     },
     {
       icon: Square,
       title: "Rollladenservice",
       description:
         "Wartung und Reparatur von Rollläden für verbesserten Einbruchschutz und Energieeffizienz.",
-      moreText:
-        "Ob Gurtband‑Wechsel, Motor‑Nachrüstung oder Dämmung der Rollladenkästen – wir optimieren Ihre Anlage für <strong>leises Laufverhalten</strong> und <strong>maximale Wärmedämmung</strong>. Moderne <strong>Sicherheitsprofile</strong> erschweren unbefugtes Öffnen, während smarte Steuerungen den Komfort erhöhen und Tageslicht optimal nutzen."
+      moreText: [
+        "Ob Gurtband‑Wechsel, Motor‑Nachrüstung oder Dämmung der Rollladenkästen – wir optimieren Ihre Anlage für ",
+        { type: 'bold', text: 'leises Laufverhalten' },
+        " und ",
+        { type: 'bold', text: 'maximale Wärmedämmung' },
+        ". Moderne ",
+        { type: 'bold', text: 'Sicherheitsprofile' },
+        " erschweren unbefugtes Öffnen, während smarte Steuerungen den Komfort erhöhen und Tageslicht optimal nutzen."
+      ]
     },
     {
       icon: Wrench,
       title: "Wartungsservice",
       description:
         "Präzise Einstellarbeiten für Energieeinsparung, verbesserten Schallschutz und erhöhte Sicherheit.",
-      moreText:
-        "<strong>Regelmäßige Wartung</strong> verhindert kostenintensive Folgeschäden. Wir prüfen Beschläge, tauschen Verschleißteile aus und kalibrieren Fensterscheren millimetergenau. Dadurch schließen Fenster wieder dicht, reduzieren Zugluft sowie Lärm und gewährleisten langfristig die <strong>Herstellergarantie</strong> Ihrer Elemente."
+      moreText: [
+        { type: 'bold', text: 'Regelmäßige Wartung' },
+        " verhindert kostenintensive Folgeschäden. Wir prüfen Beschläge, tauschen Verschleißteile aus und kalibrieren Fensterscheren millimetergenau. Dadurch schließen Fenster wieder dicht, reduzieren Zugluft sowie Lärm und gewährleisten langfristig die ",
+        { type: 'bold', text: 'Herstellergarantie' },
+        " Ihrer Elemente."
+      ]
     },
     {
       icon: Home,
       title: "Service für Hausverwaltungen",
       description:
         "Individuelle Servicepakete für Geschäftskunden und Betreuung von Großobjekten.",
-      moreText:
-        "Als <strong>zuverlässiger Partner</strong> übernehmen wir die komplette Koordination von <strong>Wartungszyklen</strong>, <strong>Notfallreparaturen</strong> und Modernisierungsmaßnahmen. <strong>Digitale Berichtserstellung</strong>, <strong>transparente Kostenaufstellungen</strong> und feste Ansprechpartner sorgen für <strong>effiziente Prozesse</strong> – von der Einliegerwohnung bis zur Wohnanlage."
+      moreText: [
+        "Als ",
+        { type: 'bold', text: 'zuverlässiger Partner' },
+        " übernehmen wir die komplette Koordination von ",
+        { type: 'bold', text: 'Wartungszyklen' },
+        ", ",
+        { type: 'bold', text: 'Notfallreparaturen' },
+        " und Modernisierungsmaßnahmen. ",
+        { type: 'bold', text: 'Digitale Berichtserstellung' },
+        ", ",
+        { type: 'bold', text: 'transparente Kostenaufstellungen' },
+        " und feste Ansprechpartner sorgen für ",
+        { type: 'bold', text: 'effiziente Prozesse' },
+        " – von der Einliegerwohnung bis zur Wohnanlage."
+      ]
     }
   ];
 
@@ -164,7 +212,16 @@ const Services = () => {
                 <p style={{ color: "#4b5563" }}>{service.description}</p>
 
                 {isOpen && (
-                  <p style={{ color: "#374151", marginTop: "12px" }}>{service.moreText}</p>
+                  <p style={{ color: "#374151", marginTop: "12px" }}>
+                    {service.moreText.map((item, textIndex) => {
+                      if (typeof item === 'string') {
+                        return item;
+                      } else if (item.type === 'bold') {
+                        return <strong key={textIndex}>{item.text}</strong>;
+                      }
+                      return null;
+                    })}
+                  </p>
                 )}
 
                 <button
