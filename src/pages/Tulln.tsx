@@ -17,7 +17,7 @@ const Tulln = () => {
       </Helmet>
       <div className="min-h-screen relative">
         {/* Floating Badge */}
-        <div className="fixed top-24 right-4 z-50 animate-bounce">
+        <div className="fixed top-32 md:top-24 right-4 z-50 animate-bounce">
           <UIBadge className="bg-gradient-to-r from-blue-600 to-blue-400 text-white px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer flex items-center gap-2">
             <Badge className="h-4 w-4" />
             <span className="font-semibold">Kostenlose Anfahrt bis 30.09.2025</span>
@@ -26,7 +26,7 @@ const Tulln = () => {
 
         <Navbar />
         <main>
-          <section className="py-16 md:py-24 bg-gray-50">
+          <section className="pt-40 pb-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto">
                 <div className="flex items-center gap-2 text-blue-600 mb-4">
