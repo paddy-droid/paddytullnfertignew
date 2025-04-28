@@ -17,7 +17,7 @@ const Index = () => {
     <>
       <Helmet>
         <title>Fensterservice Rowo: Fenster & Türreparatur in Wien & NÖ</title>
-        <meta name="description" content="24h-Notdienst für Fenster- und Türreparaturen in Wien und Niederösterreich. Professionelle Wartung, Reparatur und Schadensabwicklung mit über 10 Jahren Erfahrung." />
+        <meta name="description" content="24h-Notdienst für Fenster- und Türreparaturen in Wien und Niederösterreich. Professionelle Wartung, Reparatur und Schadensabwicklung." />
       </Helmet>
       <div className="min-h-screen relative">
         {/* Floating Badge */}
