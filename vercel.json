@@ -33,5 +33,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "https://www.fensterservice-rowo.at/(.*)",
+      "destination": "https://fensterservice-rowo.at/$1",
+      "permanent": true
+    }
   ]
 }
